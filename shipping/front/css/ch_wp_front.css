@@ -1,0 +1,61 @@
+.resultInner thead {
+    background: #373a3c;
+    color: #fff;
+    text-align: center;
+}
+
+.mt30{margin-top:30px;}
+.mt50{margin-top:50px;}
+
+.resultInner th {
+    font-size: 13px;
+}
+.resultInner td{
+	font-size: 12px;
+}
+.resultInner td:last-child, .resultInner th:last-child {
+    text-align: center;
+}
+.resultInner .dashicons.dashicons-arrow-down {
+    font-size: 39px;
+    text-decoration: none;
+    line-height: 22px;
+    text-align: center;
+}
+.resultInner a,
+.resultInner a:hover{
+	text-decoration: none;
+}
+.resultInner .dashicons.dashicons-hidden {
+    color: #E91E63;
+}
+.reportView table table td {
+    border: none;
+    padding: 0 20px; 
+}
+.reportView table table {
+    border: none !important;
+    margin:0;
+}
+.updateStatis > .topTable > table > tbody > tr > td:first-child {
+    text-align: right;
+}
+.updateStatis > .topTable > table > tbody > tr > td {
+    padding: 2px 11px;
+}
+.newStatusUpdate thead {
+    background: #373a3c;
+    color: #fff;
+}
+.newStatusUpdate th, .newStatusUpdate td {
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+.newStatusUpdate table {
+    border: none;
+}
+.newStatusUpdate td,
+.newStatusUpdate th {
+    padding: 2px;
+}

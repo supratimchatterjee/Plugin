@@ -1,0 +1,244 @@
+li#toplevel_page_shipping img {
+   max-height: 20px;
+   margin-top: -4px;
+}
+.mainWrap {
+    margin-top: 10px;
+}
+.mainWrap .innerMain {
+    background: #fff;
+    padding: 20px;
+    max-width: 950px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 0.5em #ddd;
+    position: relative;
+}
+.innerMain .head ul li {
+    display: inline-block;
+}
+.innerMain .head ul li a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    background: #ddd;
+    color: #72777c;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+.innerMain .head ul li a:hover,
+.innerMain .head ul li a.active {
+    background: #444;
+    color: #fff;
+    line-height: 20px;
+}
+.formSection {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.formGroup label {
+    width: 150px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    line-height: 28px;
+}
+.formGroup {
+    display: block;
+    overflow: hidden;
+    padding: 5px 0px;
+}
+.formGroup input, .formGroup textarea {
+    width: 790px;
+}
+.formSection h4 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.errorMessage{
+    display: none;
+}
+.errorMessage {
+    border: 1px solid red;
+    padding: 10px;
+    background: #eee;
+}
+.errorMessage p {
+    margin: 0;
+}
+.successMessage {
+    display: none;
+    border: 1px solid #00b9eb;
+    padding: 10px;
+    background: #00b9eb;
+    color: #fff;
+}
+.successMessage p{
+    margin:0;
+}
+input.error {
+    border-color: rgba(255, 0, 0, 0.3);
+}
+div#fadeOut {
+    display: none;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(255,255,255,0.7);
+    z-index: 9;
+}
+div#fadeOut img {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+div#fadeOut img {
+    position: fixed;
+    top: 20%;
+    left: 40%;
+}
+.innerMain ul {
+    border-bottom: 3px solid #23282d;
+    padding-bottom: 11px;
+    position: relative;
+}
+.innerMain ul li a {
+    position: relative;
+}
+.innerMain ul li a:before {
+    display: none;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: #222;
+    position: absolute;
+    bottom: -3px;
+    left:0;
+}
+.innerMain ul li a:hover:before, 
+.innerMain ul li a.active:before{
+    display: block;
+}
+.innerMain ul li{
+    margin-bottom:1px;
+}.table-bordered {    border: 1px solid #373a3c!important;}.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th { border: 1px solid #373a3c!important;}
+.thead-inverse th {
+    color: #000;
+    background-color: #fff!important;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #eceeef;
+}
+table {
+    border-collapse: collapse;
+    background-color: transparent;
+    width:100%;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+}
+table.table tbody td {
+    text-align: center;
+}
+.bodyInner{
+    display:none;
+}
+.bodyInner.active{
+    display: block;
+}
+.pull-right {
+    float: right;
+}
+a#addNewShipment {
+    margin-top: 45px;
+}
+.mt15 {
+    margin-top: 15px !important;
+}
+input#shippingSearch {
+    max-width: 100px;
+    margin-left: 20px;
+}
+input#search {
+    max-width: 300px;
+    float: left;
+}
+.booking_search {
+    width: 575px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.formSection {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.half input {
+    max-width: 96%;
+}
+.half {
+    max-width: 465px;
+    float: left;
+}
+.formSection .half:first-child {
+    border-right: 1px solid #ddd;
+}
+.formSection .half:last-child {
+    padding-left: 19px;
+}
+.topTable table tr > td {
+    border: 1px solid #eee;
+}
+.topTable table tr > td div table tbody td {
+    border: none;
+    padding: 0px 30px;
+}
+.pt50 {
+    padding-top: 50px;
+}
+.makeDelivered {
+    display: block;
+    overflow: hidden;
+}
+.pt30 {
+    padding-top: 30px;
+}
+.text-center{
+    text-align: center;
+}
+.reportView {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99999999999999999999;
+    left: 0;
+    padding: 20px;
+    background: #fff;
+}
+.reportView .updateStatis{
+    position: relative;;
+}
+.hideReport {
+    position: absolute;
+    right: -20px;
+    top: -28px;
+    font-size: 56px;
+    cursor: pointer;
+}
+.reportView .hideReport > div {
+    color: #32373c;
+    font-size:30px;
+}
+.reportView .hideReport > div:hover {
+    color: #607D8B;
+}
+input#weight {
+    max-width: 80%;
+}
